@@ -1,0 +1,210 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
+
+/* HEADER */
+header {
+    padding-bottom: 4px;
+}
+
+.header-top {
+    padding: 15px 0;
+}
+
+.main-header {
+    display: flex;
+}
+
+.main-header > * {
+    padding: 10px;
+}
+
+.main-header > .small-column {
+    width: 25%;
+}
+
+.main-header > .small-column:last-child {
+    text-align: right;
+}
+
+.main-header > .big-column {
+    width: 50%;
+}
+
+.main-header > .big-column ul {
+    list-style: none;
+    text-align: center;
+}
+
+.main-header > .big-column ul li {
+    display: inline-block;
+}
+
+.main-header > .big-column ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-bottom .jumbotron {
+    min-width: 50%;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+main section {
+    padding: 30px 0;
+}
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-container > .section-big-column {
+    width: 66%;
+}
+
+.section-container > .section-small-column {
+    width: 34%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #222;
+    padding-top: 10px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top > .footer-small-column {
+    width:  25%;
+}
+
+.footer-top > .footer-big-column {
+    width: 75%;
+    display: flex;
+}
+
+.footer-top > .footer-big-column > div {
+    width: 25%;
+}
+
+footer hr {
+    margin: 30px 0;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+
+.footer-bottom > div {
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+.debug header {
+    background-color: lightblue;
+}
+
+.debug .container {
+    /* min-height: 60px;
+    background-color: antiquewhite; */
+}
+
+.debug .bordered {
+    border: 2px dashed black;
+}
+
+.debug .main-header {
+    background-color: goldenrod;
+}
+
+.debug .header-bottom {
+    min-height: 400px;
+    background-color: blue;
+}
+
+.debug .header-bottom .jumbotron {
+    min-height: 300px;
+    background-color: fuchsia;
+}
+
+.debug .section-container > .section-big-column {
+    min-height: 300px;
+    background-color: cornflowerblue;
+}
+
+.debug .section-container > .section-small-column {
+    min-height: 300px;
+    background-color: pink;
+}
+
+.debug .special-column {
+    background-color: green;
+    min-height: 600px;
+}
+
+.debug footer {
+    min-height: 400px;
+}
+
+.debug footer .footer-small-column {
+    background-color: coral;
+    min-height: 200px;
+}
+
+.debug footer .footer-big-column {
+    background-color: lightseagreen;
+    min-height: 200px;
+}
+
+.debug .footer-top > .footer-big-column > div {
+    min-height: 200px;
+    border: 2px dashed white;
+}
+
+.debug .footer-bottom {
+    min-height: 50px;
+    background-color: aquamarine;
+}
+
+.debug .footer-bottom > div {
+    background-color: pink;
+}
